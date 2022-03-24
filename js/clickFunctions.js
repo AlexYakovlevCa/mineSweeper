@@ -100,7 +100,7 @@ Undo.push([cell])
   if (cell.isMine === true) renderCell(location, MINE);
   if (cell.isMine === true && gGame.life > 0) {
     gGame.life--;
-    if(cell.isMine&&flagsCount>0)    gGame.flagsCount--;
+    if(cell.isMine&&gGame.flagsCount>0)    gGame.flagsCount--;
 
     checkLife();
   }
