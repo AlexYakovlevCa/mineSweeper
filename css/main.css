@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: antiquewhite;
+    background-image: url('../gaming.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+table {
+    border: 0.2px rgba(19, 2, 247, 0.233) solid;
+
+    table-layout: fixed;
+  margin: auto;
+  background-color: rgb(100, 87, 87);
+  overflow: hidden;
+
+  /* border-collapse: collapse; */
+  /* border-spacing: 10px; */
+}
+h1{
+    display: inline-block;
+}
+.the-game{
+    min-width: 475px;
+    min-height: 177px;
+    height: 490px;
+    width: 475px;
+    margin: auto;
+    margin-top: 18pxpx;
+}
+td {
+  /* border: 3px solid  rgba(44, 41, 41, 0.199); */
+
+  overflow: hidden;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  
+  background-color: rgb(2 7 237);
+    border-left: 5px solid rgb(23 46 266);
+    border-top: 5px solid rgb(24 47 266);
+    font-size: 0;
+    border-right: 5px solid rgb(2 7 200);
+    border-bottom: 5px solid rgb(12 6 200);
+  padding: 0;
+}
+/* table tr:nth-child(even) td:nth-child(even),
+table tr:nth-child(odd) td:nth-child(odd){
+    
+} */
+td:hover{
+  background-color: rgba(2, 6, 237, 0.712);
+  cursor: grab;
+  
+}
+.flaggd{
+    font-size: 10px;
+    font-weight: bold;
+
+}
+.visable-cell {
+  border: 5px solid transparent;
+  font-size: 100%;
+  font-weight: bold;
+  background-color: rgba(2, 6, 237, 0.24);
+}
+.options{
+    height: 45px;
+    
+}
+.difficulty{
+  border-radius: 11px;
+  border: 2px #0110b3 solid;
+  background-color: #17b9ffc9;
+  color: #5c0081;
+}
+.smiley{
+display: inline-block;
+margin: auto;
+text-align: center;
+font-size: 20px;
+width: 40px;
+height: 40px;
+padding: 2px;
+background-color: #f24244;
+margin-bottom: 4px;
+}
+.hp{
+  font-size: 30px;
+  display: block;
+}
+.hints{
+  font-size: 30px;
+}
+.timer{
+  margin-left: 3px;
+    margin-right: 0px;
+  border-radius: 11px;
+  
+  border: 2px #0110b3 solid;
+  background-color: #17b9ffc9;
+  color: #5c0081;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.flag-count{
+  border-radius: 11px;
+  border: 2px #0110b3 solid;
+  background-color: #17b9ffc9;
+  color: #5c0081;
+    width: 80px;
+
+}
+.best-time{
+  width: 200px;
+  /* position: absolute; */
+  border-radius: 11px;
+  border: 2px #0110b3 solid;
+  background-color: #17b9ffc9;
+  color: #5c0081;
+  height: 57px;
+  margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 134px;
+}
+.game-over-mines{
+  transition: 0.5s;
+  background-color: royalblue;
+}
+.safe-click{
+  border-radius: 11px;
+  border: 2px #0110b3 solid;
+  background-color: #17b9ffc9;
+  color: #5c0081;
+}
+.safefor-click{
+  background-color: #17b9ffc9;
+}
+.general-buttons{
+  margin-left: 30px;
+
+}
